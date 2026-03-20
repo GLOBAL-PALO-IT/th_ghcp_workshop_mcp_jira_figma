@@ -1,12 +1,8 @@
 {
   "servers": {
     "atlassian-mcp-server": {
-            "url": "https://mcp.atlassian.com/v1/sse",
-            "type": "http"
-        },
-    "Framelink Figma MCP": {
-      "command": "npx",
-      "args": ["-y", "figma-developer-mcp", "--figma-api-key=YOUR_FIGMA_API_KEY_HERE", "--stdio"]
+      "url": "https://mcp.atlassian.com/v1/sse",
+      "type": "http"
     }
   }
 }
